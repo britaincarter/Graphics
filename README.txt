@@ -1,0 +1,3 @@
+This application dives into messing with images and pixels and uses the ps3 eye camera. This program allows you to run video feed from the ps3 eye camera, and any motion that is detected will be colored the color you set as a parameter to the program. I used the opencv2 libraries to accomplish this. For best testing, a blank surface with a contrasting color moving against it is best. I will likely add more and use different aspects of the opencv2 library functionality.
+
+Simply run make to create it. Then run ./motion_detection_exe with a color argument of: RED, GREEN, BLACK, WHITE, BLUE. Must have opencv2 on device. The makefile is a rudimentary make file.
